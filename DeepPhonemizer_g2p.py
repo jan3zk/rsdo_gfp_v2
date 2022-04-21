@@ -38,7 +38,4 @@ for res,ref in zip(result.phonemes, test_ph):
 
 print('Error rate = %.3f'%(err/len(test_ph)))
 
-# Gigafida grafemi:  ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'z', 'č', 'š', 'ž']
-# Sofesleks grafemi: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'č', 'š', 'ž']
-# Gigafida fonemi:   ['@', 'E', 'F', 'N', 'O', 'S', 'W', 'Z', 'a', 'b', 'd', 'e', 'f', 'g', 'i', 'j', 'k', 'l', "l'", 'm', 'n', "n'", 'o', 'p', 'r', 's', 't', 'tS', 'ts', 'u', 'v', 'w', 'x', 'z']
-# Sofesleks fonemi:  ['@', 'E', 'F', 'N', 'O', 'S', 'W', 'Z', 'a', 'b', 'd', 'e', 'f', 'g', 'i', 'j', 'k', 'l', "l'", 'm', 'n', "n'", 'o', 'p', 'r', 's', 't', 'tS', 'ts', 'u', 'v', 'w', 'x', 'z']
+
