@@ -1,2 +1,4 @@
 *.dict
 model*
+datasets/
+checkpoints/

@@ -1,0 +1,30 @@
+model:
+  d_fft: 1024
+  d_model: 512
+  dropout: 0.1
+  heads: 4
+  layers: 6
+  type: transformer
+paths:
+  checkpoint_dir: checkpoints
+  data_dir: datasets
+preprocessing:
+  char_repeats: 3
+  languages: ['sl_SL']
+  lowercase: true
+  n_val: 5000
+  phoneme_symbols: ['@', 'E', 'F', 'N', 'O', 'S', 'W', 'Z', 'a', 'b', 'd', 'e', 'f', 'g', 'i', 'j', 'k', 'l', "l'", 'm', 'n', "n'", 'o', 'p', 'r', 's', 't', 'tS', 'ts', 'u', 'v', 'w', 'x', 'z']
+  text_symbols: 'abcčdefghijklnmoprsštuvzž'
+training:
+  batch_size: 32
+  batch_size_val: 32
+  checkpoint_steps: 100000
+  epochs: 10
+  generate_steps: 500
+  learning_rate: 0.0001
+  n_generate_samples: 10
+  scheduler_plateau_factor: 0.5
+  scheduler_plateau_patience: 10
+  store_phoneme_dict_in_model: true
+  validate_steps: 500
+  warmup_steps: 100
