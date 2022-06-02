@@ -10,7 +10,7 @@ sudo apt install swig
 sudo pip install git+https://github.com/sequitur-g2p/sequitur-g2p@master
 ```
 
-Učenje in testiranje pretvornika z orodjem Sequitur izvedemo s pomočjo skripte [Sequitur_g2p.sh]{Sequitur_g2p.sh}.
+Učenje in testiranje pretvornika z orodjem Sequitur izvedemo s pomočjo skripte [Sequitur_g2p.sh](Sequitur_g2p.sh).
 Pri preskusu na testnih besedah se lahko poslužimo [predhodno naučenega modela](https://unilj-my.sharepoint.com/:u:/g/personal/janezkrfe_fe1_uni-lj_si/EWEPNOmBsCdKt7cGqJummYQBgygM8N_a3DDOj7vbpAx0mQ?e=mu1KPM).
 
 ## Deep Phonemizer
@@ -23,4 +23,4 @@ Proces učenja na leksikonu Gigafida in testiranje na leksikonu Sofesleks je pov
 
 ## Phonetisaurus
 
-Učenje in testiranje pretvornika z orodjem [Phonetisaurus]{https://github.com/rhasspy/phonetisaurus-pypi} povzema skripta [Phonetisaurus_g2p.py]{Phonetisaurus_g2p.py}.
+Učenje in testiranje pretvornika z orodjem [Phonetisaurus](https://github.com/rhasspy/phonetisaurus-pypi) povzema skripta [Phonetisaurus_g2p.py](Phonetisaurus_g2p.py).
