@@ -1,4 +1,1 @@
-*.dict
-model*
-datasets/
-checkpoints/
+results/
