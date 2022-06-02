@@ -4,22 +4,12 @@ Repozitorij vsebuje primer uporabe dveh postopkov grafemsko fonemske pretvorbe. 
 
 ## Sequitur
 
-Celotno orodje je dostopno na repozitoriju [https://github.com/sequitur-g2p/sequitur-g2p](https://github.com/sequitur-g2p/sequitur-g2p). Programske knjižnice, potrebne pri učenju in testiranju pretvornika sequitur, namestimo z ukazoma:
-```
-sudo apt install swig
-sudo pip install git+https://github.com/sequitur-g2p/sequitur-g2p@master
-```
-
-Učenje in testiranje pretvornika z orodjem Sequitur izvedemo s pomočjo skripte [Sequitur_g2p.sh](Sequitur_g2p.sh).
+Celotno orodje je dostopno na repozitoriju [https://github.com/sequitur-g2p/sequitur-g2p](https://github.com/sequitur-g2p/sequitur-g2p). Učenje in testiranje pretvornika z orodjem Sequitur izvedemo s pomočjo skripte [Sequitur_g2p.sh](Sequitur_g2p.sh).
 Pri preskusu na testnih besedah se lahko poslužimo [predhodno naučenega modela](https://unilj-my.sharepoint.com/:u:/g/personal/janezkrfe_fe1_uni-lj_si/EWEPNOmBsCdKt7cGqJummYQBgygM8N_a3DDOj7vbpAx0mQ?e=mu1KPM).
 
 ## Deep Phonemizer
 
-Pretvornik DeepPhonemizer iz repozitorija [https://github.com/as-ideas/DeepPhonemizer](https://github.com/as-ideas/DeepPhonemizer) temelji na uporabi globokih nevronskih mrež. Namestitev knjižnice izvedemo z ukazom:
-```
-pip install deep-phonemizer
-```
-Proces učenja na leksikonu Gigafida in testiranje na leksikonu Sofesleks je povzeto v programski skripti [DeepPhonemizer_g2p.py](DeepPhonemizer_g2p.py). Datoteka [config.yaml](config.yaml) vsebuje nastavitve učne paramtrov in definicijo grafemov in fonemov za slovenski jezik. Test lahko izvedemo na [predhodno naučenem modelu](https://unilj-my.sharepoint.com/:u:/g/personal/janezkrfe_fe1_uni-lj_si/EbGvV5SxPOdPomwE3SrKBZIBUyycwXxbZePIuKVFxvhUQw?e=6aQ2W4).
+Pretvornik DeepPhonemizer iz repozitorija [https://github.com/as-ideas/DeepPhonemizer](https://github.com/as-ideas/DeepPhonemizer) temelji na uporabi globokih nevronskih mrež. Proces učenja na leksikonu Gigafida in testiranje na leksikonu Sofesleks je povzeto v programski skripti [DeepPhonemizer_g2p.py](DeepPhonemizer_g2p.py). Datoteka [config.yaml](config.yaml) vsebuje nastavitve učne paramtrov in definicijo grafemov in fonemov za slovenski jezik. Test lahko izvedemo na [predhodno naučenem modelu](https://unilj-my.sharepoint.com/:u:/g/personal/janezkrfe_fe1_uni-lj_si/EbGvV5SxPOdPomwE3SrKBZIBUyycwXxbZePIuKVFxvhUQw?e=6aQ2W4).
 
 ## Phonetisaurus
 
