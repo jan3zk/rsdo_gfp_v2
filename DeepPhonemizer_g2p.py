@@ -80,7 +80,7 @@ def testing(model_path, test_dict):
   print('WER=%.1f%%, PER=%.1f%%'%(str_err,sym_err))
 
 def main(args):
-  if not args.use_pretrained:
+  if not args.pretrained:
     training(args.model, args.train_dict)
   testing(args.model, args.test_dict)
 
@@ -98,7 +98,7 @@ if __name__ == '__main__':
     type = str,
     default = '/storage/rsdo/jtdh/SingleCharacters/SloLeks_Validated_ASR_LemmaSplit_v2/sloleks_test_gfp.dict'
   )
-  parser.add_argument('--use_pretrained',
+  parser.add_argument('--pretrained',
     action='store_true',
   )
   args = parser.parse_args()
