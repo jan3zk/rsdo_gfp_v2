@@ -20,7 +20,7 @@ Učenje in testiranje pretvornika z orodjem [Phonetisaurus](https://github.com/r
 If you use this tool in your research work, please cite it as follows:
 
 **APA**  
-Križaj, J., Dobrišek, S., & Žganec Gros, J. (2025). *G2P-sl 1.0: Grapheme-to-phoneme conversion for Slovene* [Computer software].  
+Križaj, J., Dobrišek, S., & Žganec Gros, J. (2024). *G2P-sl 1.0: Grapheme-to-phoneme conversion for Slovene* [Computer software].  
 Faculty of Electrical Engineering, University of Ljubljana. Available at: [https://github.com/jan3zk/rsdo_gfp_v2](https://github.com/jan3zk/rsdo_gfp_v2)
 
 **BibTeX**
@@ -28,7 +28,7 @@ Faculty of Electrical Engineering, University of Ljubljana. Available at: [https
 @misc{g2p_sl_1_0,
   author       = {Križaj, Janez and Dobrišek, Simon and Žganec Gros, Jerneja},
   title        = {G2P-sl 1.0: Grapheme-to-phoneme conversion for Slovene},
-  year         = {2025},
+  year         = {2024},
   howpublished = {\url{https://github.com/jan3zk/rsdo_gfp_v2}},
   note         = {Faculty of Electrical Engineering, University of Ljubljana}
 }
